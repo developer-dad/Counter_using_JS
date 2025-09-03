@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#faf1f1, #bcd1ff);
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  border: 2px solid #5a5a5a;
+  width: 50%;
+  height: 40%;
+  border-radius: 50px;
+  box-shadow: 8px 8px 22px rgba(234, 181, 234, 0.467);
+  background: linear-gradient(335deg, #faf1f1, #bcd1ff);
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  margin-top: 80px;
+  font-size: 35px;
+  box-shadow: 0px 0px 15px rgba(133, 47, 148, 0.267);
+  border-radius: 11px;
+  border: 1px solid #5a5a5a;
+}
+
+.display h1 {
+  color: black
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  gap: 10%;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 15px 8px;
+  height: 10%;
+  width: 15%;
+  font-size: 85%;
+  font-weight: bold;
+  border-radius: 6px;
+  background: #acbeec;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 0px 5px inset;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    width: 70%;
+    height: 80%;
+  }
+
+  .display {
+    width: 75%;
+    height: 175px;
+    font-size: 40px;
+    margin-top: 100px;
+  }
+
+  button {
+    width: 45%;
+    height: 45px;
+    font-size: 90%;
+    padding: 8px 15px;
+  }
+
+  .button-div {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 33px;
+    align-items: center;
+    justify-content: center;
+  }
+}
