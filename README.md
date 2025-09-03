@@ -20,6 +20,8 @@ This was my **first JavaScript project**, where I learned how to:
 ## 📷 Preview
 - Preview of web through Desktop
     ![App ScreenShot](images/Desktop%20View.png)
+- Preview of web through Mobile
+    ![App ScreenShot](images/Mobile%20ScreenShot.jpg)
 
 ## 🛠️ Technologies Used
 - HTML  
